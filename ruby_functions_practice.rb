@@ -32,6 +32,16 @@ def add_string_as_number(string_1, string_2)
   return string_1.to_i + string_2.to_i
 end
 
-def number_to_full_month_name_1(number_to_full_month_name)
+def volume_of_cube(num)
+return num**3
+end
 
+def volume_of_sphere(r)
+pi = 3.141592653
+  return (4/3)* (pi)* (r**3)
+end
+
+
+def fahrenheit_to_celsius(fahrenheit)
+  return (farenheit - 32) * (5/9)
 end
